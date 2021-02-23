@@ -1,0 +1,15 @@
+ALLEGRO CODE BLOCKS SETTINGS
+==============================
+
+[FILE NAME] -> SEARCH DIRECTORIES -> COMPILER
+C:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\
+
+
+[FILE NAME] -> SEARCH DIRECTORIES -> LINKER
+C:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\lib\
+
+DEBUG -> LINKER SETTINGS
+C:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\lib\liballegro_monolith-debug.dll.a
+
+RELEASE -> LINKER SETTINGS
+C:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\lib\liballegro_monolith.dll.a
