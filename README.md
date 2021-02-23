@@ -30,11 +30,13 @@ User's plane specifications:
 - Bullet damage = 1
 - Bullet speed (original) = 1  
 - Bullet per fire (original) = 1  
-- Maximum bullet = 4  
+- Maximum bullet = 4 
+   
 User's upgrades:  
 - Health upgrade = increase current health by 1  
 - Bullet speed upgrade = increase current speed by 3  
 - Ultimate upgrade = allows the user to use the plane's ultimate attack  
+  
 Enemy's plane specifications:
 - HP = 1  
 - Speed = 1 and at each stage will be increased by 1  
@@ -42,10 +44,12 @@ Enemy's plane specifications:
 - Bullet speed = 3 and at each stage will increased by 2  
 - Maximum enemy bullet = 8  
 - Maximum enemy = 5  
+  
 Boss's minion specifications:  
 - HP = 1  
 - Speed = 3 and each minion moves in a different direction  
 - Maximum minion = 4  
+  
 Boss's specifications:  
 - HP = 100  
 - Speed = 5  
