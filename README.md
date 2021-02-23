@@ -14,4 +14,6 @@ Features:
 ## Allegro set-up
 IDE: Code::Blocks  
 Download link: [allegro-mingw-gcc6.2.0-x86-static-5.2.2.zip](https://github.com/liballeg/allegro5/releases/download/5.2.2.0/allegro-mingw-gcc6.2.0-x86-static-5.2.2.zip)  
-After finish downloading, Un-zip the file and move it to your C drive. The full path should be like: `C:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro`. After that see the [Allegro codeblocks settings](/Allegro%20codeblocks%20settings.txt) and modify the project's build settings so that the allegro library can be used.
+  
+After finish downloading, Un-zip the file and move it to your C drive. The full path should be like: `C:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro`. After that see the [Allegro codeblocks settings](/Allegro%20codeblocks%20settings.txt) and modify the project's build settings so that the allegro library can be used.  
+
