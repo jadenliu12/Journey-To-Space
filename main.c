@@ -47,7 +47,6 @@ int before_scene;
 bool key_state[ALLEGRO_KEY_MAX];
 bool *mouse_state;
 int mouse_x, mouse_y;
-// TODO: More variables to store input states such as joysticks, ...
 
 /* Variables for allegro basic routines. */
 ALLEGRO_DISPLAY* game_display;
@@ -64,8 +63,6 @@ ALLEGRO_FONT* font_gameover_45;
 ALLEGRO_FONT* font_gameover_55;
 ALLEGRO_FONT* font_gameover_100;
 ALLEGRO_FONT* font_darkfuture_50;
-// TODO: More shared resources or data that needed to be accessed
-// across different scenes.
 
 /* Menu Scene resources*/
 ALLEGRO_BITMAP* main_img_background;
@@ -272,7 +269,6 @@ void allegro5_init(void)
         game_abort("failed to install keyboard");
     if (!al_install_mouse())
         game_abort("failed to install mouse");
-    // TODO: Initialize other addons such as video, ...
 
     game_display = al_create_display(SCREEN_W, SCREEN_H);
     if (!game_display)
@@ -296,7 +292,6 @@ void allegro5_init(void)
     al_register_event_source(game_event_queue, al_get_timer_event_source(game_update_timer));
     al_register_event_source(game_event_queue, al_get_keyboard_event_source());
     al_register_event_source(game_event_queue, al_get_mouse_event_source());
-    // TODO: Register other event sources such as timer, video, ...
 
     al_start_timer(game_update_timer);
 }
@@ -626,8 +621,6 @@ void game_start_event_loop(void)
                 game_log("Mouse scroll at (%d, %d) with delta %d", event.mouse.x, event.mouse.y, event.mouse.dz);
             }
         }
-        // TODO: Process more events and call callbacks by adding more
-        // entries inside Scene.
 
         if (redraws > 0 && al_is_event_queue_empty(game_event_queue))
         {
