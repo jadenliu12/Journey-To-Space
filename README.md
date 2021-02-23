@@ -66,7 +66,7 @@ From the menu scene, the user can press these button to cheat:
 ### Menu scene  
 ![Menu scene](/Images/menu.jpg)  
 ### Settings scene  
-![Settings scene](/Images/settings.jpg)  
+![Settings scene](/Images/setting.jpg)  
 ### Stage 1 scene  
 ![Stage 1 scene](/Images/start.jpg)  
 ### Stage 2 scene  
