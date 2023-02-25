@@ -1,4 +1,4 @@
-# Journey-To-Space
+# Journey To Space
 
 ## Basic Informations  
 Description: A simple sky fighter game where the goal is to defeat the boss at the end  
